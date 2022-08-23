@@ -1,3 +1,48 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+    margin: 20px auto;
+    background: url("/img/background.jpg");
+    background-size: 1400px 750px;
+    background-repeat: no-repeat;
+    color: #0077b6;
+}
+label{
+    display: block;    
+}
+input{
+    display: block;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border: 2px solid #0077b6;
+    border-radius: 0.5rem;
+    margin: 20px 600px;
+    color: #0077b6;
+}
+.show-btn{
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid #0077b6;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: #0077b6;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+    border: 2px dashed #0077b6;
+    cursor: pointer;
+}
+.show-btn:hover{
+    background-color: #0077b6;
+    color: white;
+    font-weight: bold;
+}
+.output{
+    padding: 1rem 1rem;
+    font-weight: bold;
+}
+input:hover{
+    cursor: pointer;
 }

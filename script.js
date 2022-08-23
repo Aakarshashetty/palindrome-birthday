@@ -199,7 +199,7 @@ const showPalindrome = () => {
             }
         }
         else{
-            output.innerText = "Woow you birthday is a palindrome!"
+            output.innerText = "Woow you birthday is a palindrome!🎉"
         }
     }
 };

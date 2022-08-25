@@ -5,7 +5,9 @@ body{
     background: url("/img/background.jpg");
     background-size: 1400px 750px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #0077b6;
+    margin-bottom: 0px;
 }
 label{
     display: block;    
@@ -45,4 +47,32 @@ input:focus{
 }
 input:hover{
     cursor: pointer;
+}
+.footer{
+    padding: 1rem 1rem;
+    color: #0077b6;
+    text-align: center;
+    margin: 319px 20px;
+    margin-bottom: 0px;
+}
+.footer .link{
+    color: #0077b6;
+    margin: 5px 5px;
+    border: 1.5px solid #0077b6;
+    border-radius: 10rem;
+    padding: 0.5rem 0.5rem;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer-insider{
+    font-weight: bold;
+    font-size: 19px;
+    padding-bottom: 1rem;
+    margin: 0px 0px;
+    margin-left: 10px;
+}
+.footer .link:hover{
+    background-color: #0077b6;
+    color: white;
 }
